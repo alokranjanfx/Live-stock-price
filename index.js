@@ -15,7 +15,7 @@ app.listen(PORT, () => {
 });
 
 const axios = require('axios');
-const Stocks = require('./models/stocks');
+
 
 const fetchAndStoreStockPrices = async () => {
   try {
